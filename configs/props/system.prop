@@ -24,9 +24,6 @@ persist.data.df.iwlan_mux=9
 persist.data.df.mux_count=8
 persist.data.df.ul_mode=5
 
-# DPM
-persist.vendor.dpm.feature=11
-
 # Google
 ro.opa.device_model_id=motorola-dubai
 ro.opa.eligible_device=true
