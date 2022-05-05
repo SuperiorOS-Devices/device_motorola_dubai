@@ -256,9 +256,6 @@ ro.vendor.hw.nfc=st
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.2
 
-# QSPM
-ro.vendor.qspm.enable=true
-
 # Radio
 persist.rcs.supported=1
 persist.vendor.data.iwlan.enable=true
