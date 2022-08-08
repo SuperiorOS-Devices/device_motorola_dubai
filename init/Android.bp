@@ -22,3 +22,10 @@ cc_library_static {
         "system/core/init"
     ]
 }
+
+prebuilt_etc {
+    name: "init.dubai.perf.rc",
+    src: "init.dubai.perf.rc",
+    sub_dir: "init",
+    vendor: true,
+}
