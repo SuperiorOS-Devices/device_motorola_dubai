@@ -165,9 +165,6 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/props/product.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/double_click"
-
 # Recovery
 ifeq ($(TARGET_IS_VAB),true)
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
