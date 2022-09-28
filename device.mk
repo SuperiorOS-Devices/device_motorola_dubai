@@ -74,6 +74,7 @@ PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 # Ant
 PRODUCT_PACKAGES += \
+    AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
 # Atrace
