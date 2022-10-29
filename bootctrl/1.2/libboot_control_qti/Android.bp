@@ -15,7 +15,7 @@ cc_defaults {
     vendor: true,
     recovery_available: true,
     shared_libs: [
-        "android.hardware.boot@1.1",
+        "android.hardware.boot@1.2",
         "libbase",
         "libcutils",
         "liblog",
