@@ -252,6 +252,9 @@
          the value set for config_defaultPeakRefreshRate will act as the default peak frame rate -->
     <integer name="config_defaultRefreshRate">0</integer>
 
+    <!-- Default refresh rate while the device has high brightness mode enabled for HDR. -->
+    <integer name="config_defaultRefreshRateInHbmHdr">60</integer>
+
     <!-- Whether to select voice/data/sms preference without user confirmation -->
     <bool name="config_voice_data_sms_auto_fallback">true</bool>
     <!-- Package names to use with vendor iwlan implementation. -->
