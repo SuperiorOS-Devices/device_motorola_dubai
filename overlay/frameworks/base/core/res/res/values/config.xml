@@ -598,6 +598,12 @@
     <!-- Whether the new Auto Selection Network UI should be shown -->
     <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
 
+    <!-- Whether the device enable the standalone (SA) mode of 5G NR.-->
+    <bool name="config_telephony5gStandalone">true</bool>
+
+    <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
+    <bool name="config_telephony5gNonStandalone">true</bool>
+
     <!-- QS System Info -->
     <bool name="config_supportSystemInfo">true</bool>
     <string name="config_sysCPUTemp">/sys/devices/virtual/thermal/thermal_zone0/temp</string>
