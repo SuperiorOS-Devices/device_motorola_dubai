@@ -71,6 +71,9 @@ TARGET_BOARD_PLATFORM := lahaina
 # A/B
 AB_OTA_UPDATER := true
 
+# A/B ART
+BOARD_USES_SYSTEM_OTHER_ODEX := true
+
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
