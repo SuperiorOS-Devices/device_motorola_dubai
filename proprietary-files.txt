@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from S1RGS32.53-18-22-2 2e00d release-keys.
+# All unpinned blobs below are extracted from S1RD32.55-94 c9d3aa-9be6b
 
 # ACDB Data
 vendor/etc/acdbdata/Bluetooth_cal.acdb
@@ -1309,7 +1309,7 @@ system/etc/permissions/moto-telephony.xml:system_ext/etc/permissions/moto-teleph
 system/framework/moto-telephony.jar:system_ext/framework/moto-telephony.jar
 
 # Radio - IMS (APK) - from patched source
--system_ext/priv-app/ims/ims.apk|5d182a55ae690df9876828aec1146346f511de53
+-system_ext/priv-app/ims/ims.apk|424ad2eb1333ec358e8aa5df945695fb43551ac8
 
 # RIL - IMS
 -system_ext/app/ImsRcsService/ImsRcsService.apk
