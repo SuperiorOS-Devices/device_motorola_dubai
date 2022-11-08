@@ -517,16 +517,6 @@ vendor/lib64/camera/com.qti.sensor.mot_ov32b40.so
 vendor/lib64/camera/com.qti.sensor.mot_ov50a.so
 vendor/lib64/camera/com.qti.sensor.mot_s5kjn1.so
 
-# Camera - sensormodule
-vendor/lib/camera/com.qti.sensormodule.mot_dubai_gc02m1b_tsp.bin
-vendor/lib/camera/com.qti.sensormodule.mot_dubai_ov32b40_ofilm.bin
-vendor/lib/camera/com.qti.sensormodule.mot_dubai_ov50a_sunny.bin
-vendor/lib/camera/com.qti.sensormodule.mot_dubai_s5kjn1_qtech.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_dubai_gc02m1b_tsp.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_dubai_ov32b40_ofilm.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_dubai_ov50a_sunny.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_dubai_s5kjn1_qtech.bin
-
 # Camera - tuned
 vendor/lib/camera/com.qti.tuned.default.bin
 vendor/lib/camera/com.qti.tuned.mot_dubai_gc02m1b.bin
@@ -1636,7 +1626,6 @@ vendor/firmware/vpu20_4v_unsigned.mbn
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
-vendor/lib64/libtrustedapploader.so
 vendor/lib64/libwvhidl.so
 
 # WiFi
