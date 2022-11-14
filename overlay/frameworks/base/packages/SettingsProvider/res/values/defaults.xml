@@ -19,4 +19,6 @@
 <resources>
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
     <string name="def_device_name_simple">Motorola edge 30</string>
+
+    <!-- Default screen brightness, from 0 to 255. 102 is 40%. --> <integer name="def_screen_brightness">82</integer>
 </resources>
