@@ -268,10 +268,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.motolahaina
 
-# Lineage Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.dubai
-
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.1-service.motorola_dubai
