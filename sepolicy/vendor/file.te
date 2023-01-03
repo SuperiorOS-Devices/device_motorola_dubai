@@ -24,11 +24,7 @@ type vendor_proc_hw, proc_type, fs_type;
 type fsg_file, file_type, contextmount_type, vendor_file_type;
 
 # Power
-type proc_sched_lib_mask_cpuinfo, proc_type, fs_type;
 type vendor_sysfs_dt2w, fs_type, sysfs_type;
-
-# SKU version
-type vendor_sysfs_sku_version, fs_type, sysfs_type;
 
 # Touchscreen
 type vendor_sysfs_touchpanel, fs_type, sysfs_type;
@@ -36,5 +32,3 @@ type vendor_sysfs_touchpanel, fs_type, sysfs_type;
 # V4L2 Name
 type vendor_sysfs_v4l2_name, fs_type, sysfs_type;
 
-# Vibrator
-type vendor_sysfs_vibrator, fs_type, sysfs_type;
