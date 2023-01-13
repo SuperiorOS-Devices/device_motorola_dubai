@@ -63,6 +63,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_SOURCE := kernel/motorola/sm7325
 TARGET_KERNEL_CONFIG += vendor/dubai-qgki_defconfig
+TARGET_KERNEL_CLANG_VERSION := playgroundtc
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/playgroundtc
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
