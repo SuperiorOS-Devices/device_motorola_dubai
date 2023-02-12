@@ -132,13 +132,23 @@ LOC_HIDL_VERSION := 4.0
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    $(DEVICE_PATH)/configs/vintf/device_framework_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    $(DEVICE_PATH)/configs/vintf/device_framework_matrix.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_dubai
+
+# LiveDisplay
+ifneq ("$(wildcard hardware/lineage/livedisplay)", "")
+SOONG_CONFIG_NAMESPACES += livedisplay
+SOONG_CONFIG_livedisplay += enabled
+SOONG_CONFIG_livedisplay_enabled := true
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    vendor/lineage/config/device_framework_matrix.xml
+DEVICE_MANIFEST_FILE += \
+    $(DEVICE_PATH)/configs/vintf/lineage_manifest.xml
+endif
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
