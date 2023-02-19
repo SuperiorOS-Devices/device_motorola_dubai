@@ -1132,6 +1132,11 @@ vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
 
 # Perf
+system/framework/QPerformance.jar
+system/framework/QXPerformance.jar
+system/framework/UxPerformance.jar
+system_ext/lib/libqti_performance.so
+system_ext/lib64/libqti_performance.so
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/bin/poweropt-service
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
