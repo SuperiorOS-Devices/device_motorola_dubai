@@ -21,13 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dubai device
 $(call inherit-product, device/motorola/dubai/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common SuperiorOS stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := lineage_dubai
+PRODUCT_NAME := superior_dubai
 PRODUCT_DEVICE := dubai
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
@@ -40,4 +40,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="dubai_g-user 12 S1RD32M.55-94-2 8f252f release-keys"
 
 BUILD_FINGERPRINT := motorola/dubai_g/dubai:12/S1RDS32.55-94-2/8f252f:user/release-keys
-TARGET_HAS_UDFPS := true

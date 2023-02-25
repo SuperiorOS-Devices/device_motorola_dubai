@@ -26,7 +26,7 @@ TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := cortex-a76
 
 TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv8-2a
+TARGET_2ND_ARCH_VARIANT := armv8-a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a76
@@ -61,10 +61,8 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_RAMDISK_USE_LZ4 := true
-TARGET_KERNEL_SOURCE := kernel/motorola/sm7325
+TARGET_KERNEL_SOURCE := kernel/motorola/dubai
 TARGET_KERNEL_CONFIG += vendor/dubai-qgki_defconfig
-TARGET_KERNEL_CLANG_VERSION := playgroundtc
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/playgroundtc
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
