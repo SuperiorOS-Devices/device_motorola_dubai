@@ -63,6 +63,10 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_SOURCE := kernel/motorola/dubai
 TARGET_KERNEL_CONFIG += vendor/dubai-qgki_defconfig
+TARGET_KERNEL_CLANG_VERSION := playgroundtc
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/playgroundtc
+TARGET_KERNEL_ADDITIONAL_FLAGS += LD=$(shell pwd)/prebuilts/clang/host/linux-x86/playgroundtc/bin/ld.lld
+TARGET_KERNEL_ADDITIONAL_FLAGS += AR=$(shell pwd)/prebuilts/clang/host/linux-x86/playgroundtc/bin/llvm-ar
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
