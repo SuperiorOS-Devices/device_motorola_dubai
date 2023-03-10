@@ -24,8 +24,9 @@ $(call inherit-product, device/motorola/dubai/device.mk)
 # Inherit some common SuperiorOS stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
-# Boot Animation
+# Boot Animation & UDFPS Animations
 TARGET_BOOT_ANIMATION_RES := 1080
+SUPERIOR_UDFPS_ANIMATIONS := true
 
 PRODUCT_NAME := superior_dubai
 PRODUCT_DEVICE := dubai
